@@ -1,0 +1,36 @@
+body { 
+  background-color: #111; /* Dark background */
+  color: #eee;  /* Light text */
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Keep content centered */
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#visualizer {
+   width: 600px;
+   height: 400px;
+   background-color: #000;
+   border: 4px solid #444;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+} 
+#playButton {
+   background-color: #4CAF50; /* Example green color */  
+   border: none;
+   color: white;
+   padding: 12px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 5px;
+   cursor: pointer;
+} 
